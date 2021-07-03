@@ -11,12 +11,12 @@ const styles = StyleSheet.create({
   imageDimensions: {
     width: 150,
     height: 150,
-    display: 'block',
+    display: 'flex',
     marginLeft: 'auto',
     marginRight: 'auto',
   },
   contactImage: {
-    borderRadius: '50%',
+    borderRadius: 50,
     width: 75,
     height: 75,
     display: 'block',
@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
   },
   rowContainer: {
     flexDirection:'row',
+    justifyContent: 'space-between',
   },
   headerText: {
     fontSize: 40,
@@ -67,6 +68,11 @@ const styles = StyleSheet.create({
   statText: {
     color: 'blue',
     fontSize: 20,
+  },
+  inputRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: 700,
   }
 });
 
