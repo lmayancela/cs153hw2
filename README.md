@@ -1,4 +1,4 @@
-# cs153hw2
+# cs153hw3
 
 This app utilizes the pokemon api via the pokedex promise node module.
 
